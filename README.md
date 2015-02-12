@@ -1,5 +1,6 @@
 # Little spaceship
 ![Mockup](http://i.imgur.com/58SQHTW.png)
+![Screenshot](http://i.imgur.com/soXSd4p.png)
 ### What is this about
 This is an unfinished experimental project of mine from Summer 2014. The basic idea was to create a web game/application about a spaceship travelling throught the solar-system. Client offers visitor a possibility to help the rocket by "pushing" it forward and accelerating it a bit. The catch is that the scale of the solar-system is realistic, as well as the travelling time/speed. **By gathering enough pushes from all visitors the rocket would gain more speed and hopefully eventually cross the solar-system and reach Voyager 1.** 
 
