@@ -11,8 +11,9 @@ I was simply curious about demonstrating the scale of the solar-system as well a
 - [Flambe](http://getflambe.com/)
 - Vagrant
 
-### Is running somewhere right now?
-No :( The project froze during the summer since I had serious trouble with local developmenttools on my Macbook Air which made the project really frustrating to work on it. However, I'm considering picking the project up again and using probably Javascript and Phaser.js for client side. I'll also probably redesign the Django and REST-api parts.
+### Is it running somewhere right now?
+No :( 
+The project froze during the summer since I had serious trouble with local developmenttools on my Macbook Air which made the project really frustrating to work on it. It ran very well on top of uwsgi and nginx but I ended up removing it from DigitalOcean to save money. I still have vagrant-box with everything set-up so it shouldn't be too difficult to set it up if it ever comes to that. However, I have some other plans (see "The future?")
 
 ### Architecture
 Basically the server side consists of Django with rest-framework providing the API for the client and [Celery](http://www.celeryproject.org/) to run scheduled tasks (updating the progress of the rocket). spaceAPI module's *tasks.py* contains relevant code for updating the rocket's model.
