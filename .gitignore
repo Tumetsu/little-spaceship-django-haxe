@@ -1,0 +1,6 @@
+static/spaceship/
+celerybeat.pid
+celerybeat-schedule
+.vagrant/
+.idea/
+Vagrantfile
